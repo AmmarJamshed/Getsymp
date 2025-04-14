@@ -19,7 +19,7 @@ st.write("Upload an image, and DeepSeek's vision-language model will suggest pos
 
 # --- API Key --- (Hardcoded key, no need for secrets.toml)
 API_KEY = "sk-5f72e1b0d1d74e85a16278dd86139dea"
-API_URL = "https://api.deepseek.com/v1/vl/completions"
+API_URL = "https://platform.deepseek.com/api_keys"
 
 # --- Image uploader ---
 uploaded_file = st.file_uploader("📤 Upload your image", type=["jpg", "jpeg", "png"])
